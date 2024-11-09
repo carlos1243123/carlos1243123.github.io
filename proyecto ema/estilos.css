@@ -1,0 +1,114 @@
+﻿/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el menú */
+.menu {
+    background-image: url(perros.jpg);
+    background-size: cover;
+    padding: 50px;
+    background-position:center;
+}
+
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Estilos Inicio */
+#inicio {
+    background-color: #A4002D;
+    padding: 50px;
+    text-align: center;
+}
+
+#inicio h1 {
+    color: #FFFFFF;
+}
+
+/* Estilos Proyectos */
+#proyectos {
+    background-color: #fff3e0;
+    padding: 50px;
+    text-align: left;
+}
+#proyectos h1 {
+    color: #ef6c00;
+}
+
+#proyectos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#proyectos ul li {
+    margin-bottom: 10px;
+}
+/* Estilos habilidades */
+#habilidades {
+    padding: 20px; 
+    background-color: #f0f0f0;
+}
+
+.contenedor-habilidades {
+    display: flex;
+    justify-content: space-star; 
+    align-items: ; 
+}
+
+.texto-habilidades {
+    flex: 1; 
+    margin-right: 20px; 
+}
+
+.imagen-habilidades img {
+    max-width: 70%; /* La imagen no superará el ancho de su contenedor */
+    width: 500px; /* Permite que la imagen mantenga su proporción al agrandarse */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados en la imagen */
+    border: 2px solid #A4002D; /* Borde de 2px de color carmesí */
+    box-sizing: border-box; /* Incluye el borde en el cálculo del ancho */
+}
+/* Estilos Contacto */
+#contacto {
+    background-color: #fff3e0;
+    padding: 50px;
+    text-align: left;
+}
+
+#contacto h1 {
+    color: #ef6c00;
+}
+
+#contacto ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contacto ul li {
+    margin-bottom: 10px;
+}
+/* Estilos biografia */
+#biografia {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+}
+
+#biografia h1 {
+    color: #333;
+}10px;
